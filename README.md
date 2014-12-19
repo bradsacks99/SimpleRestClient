@@ -1,4 +1,4 @@
-<h3>Simple Rest Client</h3>
+<h3>Simple PHP Rest Client</h3>
 <li>Supports Basic Authentication only
 <li>Provides simple syntax
 <li>Supports POST, PUT, DELETE, and GET
