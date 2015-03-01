@@ -62,6 +62,12 @@ class cRestClient {
 		$this->url = $url;
 	}
 
+	public function setTimeout($timeout = null) {
+		if(!empty($timeout)) {
+			$this->timeout = $timeout;
+		}
+	}
+
 	public function setBasicAuth($username = null, $password = null) {
 		if (empty($username)) {
 			throw new Exception('Username cannot be blank.');
